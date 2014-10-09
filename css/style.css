@@ -1,0 +1,98 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+	}
+body {
+	line-height: 1;
+	}
+ol, ul {
+	list-style: none;
+	}
+blockquote, q {
+	quotes: none;
+	}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+	}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+
+
+/* Undo the next two changes when finished */
+body {
+    background-color: LightGray;
+	}
+div {
+    border: 1px solid Chocolate;
+	}
+
+/* Navigation Section */
+
+.top-navigation {
+    background-color: #fff;
+	}
+
+.top-navigation > .content {
+    width: 970px;
+    height: 165px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased; 
+	font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
+
+	}
+
+.logo{
+	width: 102px;
+	margin: .5em;
+	}
+
+.links  {
+	float: right;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	}
+
+.links > li {
+	font-size: 1.4em;
+	display: inline-block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: .5em;
+}
